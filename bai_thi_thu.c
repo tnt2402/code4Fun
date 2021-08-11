@@ -18,7 +18,8 @@ void sort();
 
 SV a[100];
 
-int first_run = 1, count = 0, sum_gpa = 0;
+int first_run = 1, count = 0;
+float sum_gpa = 0;
 float gpa_average;
 int main() {
     menu();
